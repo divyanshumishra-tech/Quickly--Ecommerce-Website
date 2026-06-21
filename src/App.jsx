@@ -30,7 +30,7 @@ function App() {
     {
       id: 4,
       name: "iphone 14",
-      price: "₹20",
+      price: "₹1,00,000",
       image: "https://m.media-amazon.com/images/I/71v2jVh6nIL.jpg",
     },
   ];
