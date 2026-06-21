@@ -18,7 +18,7 @@ function App() {
     {
       id: 2,
       name: "Banana",
-      price: "₹45",
+      price: "₹70",
       image: "https://m.media-amazon.com/images/I/51ebZJ+DR4L.jpg",
     },
     {
