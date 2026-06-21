@@ -23,13 +23,13 @@ function App() {
     },
     {
       id: 3,
-      name: "Bread",
+      name: "Book",
       price: "₹40",
       image: "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg",
     },
     {
       id: 4,
-      name: "Chips",
+      name: "iphone 14",
       price: "₹20",
       image: "https://m.media-amazon.com/images/I/71v2jVh6nIL.jpg",
     },
