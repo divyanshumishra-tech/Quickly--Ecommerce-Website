@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div>
-        <h2>Blinkit</h2>
+        <h2>Quikly</h2>
         <p>Groceries delivered in minutes.</p>
       </div>
 
@@ -19,7 +19,7 @@ export default function Footer() {
         <h2>love from team Divyanshu</h2>
         <h3>Contact us : +91 9118964334</h3>
         <p>Lucknow, Uttar Pradesh</p>
-        <p>support@blinkitclone.com</p>
+        <p>support@Quikly.com</p>
       </div>
     </footer>
   );

@@ -332,3 +332,6 @@ body { background: #f8f8f8; }
   .hero { padding: 30px 20px; }
   .category-section, .products-section { padding: 20px; }
   .category-grid, .products-grid, .products-loading {
+    grid-template-columns: 1fr;
+  }
+}

@@ -41,7 +41,7 @@ export default function Header({ user, setUser, cartCount, onCartOpen, onSearch 
     <>
       <header className="header">
         <div className="header-left">
-          <h1 className="logo">Blinkit</h1>
+          <h1 className="logo">Quikly</h1>
           <div className="delivery-info">
             <h3>Delivery in 10 minutes</h3>
             <p>Home - Lucknow, Uttar Pradesh</p>
@@ -53,7 +53,7 @@ export default function Header({ user, setUser, cartCount, onCartOpen, onSearch 
         <div className="header-right">
           {user ? (
             <>
-              <span className="user-name">👋 {user.name.split(" ")[0]}</span>
+              <span className="user-name">hii🤡{user.name.split(" ")[0]}</span>
               <button className="login-btn" onClick={handleLogout}>Logout</button>
             </>
           ) : (
