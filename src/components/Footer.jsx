@@ -16,8 +16,8 @@ export default function Footer() {
       </div>
 
       <div>
-        <h2>love from team Divyanshu</h2>
-        <h3>Contact us : +91 9118964334</h3>
+        <h2>love from team Quikly</h2>
+        <h3>Contact us : +91 9118964334, +91 8707799745</h3>
         <p>Lucknow, Uttar Pradesh</p>
         <p>support@Quikly.com</p>
       </div>

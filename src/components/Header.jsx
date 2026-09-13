@@ -53,7 +53,7 @@ export default function Header({ user, setUser, cartCount, onCartOpen, onSearch 
         <div className="header-right">
           {user ? (
             <>
-              <span className="user-name">hii🤡{user.name.split(" ")[0]}</span>
+              <span className="user-name">Welcome, {user.name.split(" ")[0]}!</span>
               <button className="login-btn" onClick={handleLogout}>Logout</button>
             </>
           ) : (

@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../assets/image.jpg";
 export default function Hero() {
   return (
     <section className="hero">
@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="hero-right">
         <img
-          src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800"
+          src={image}
           alt="groceries"
         />
       </div>

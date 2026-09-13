@@ -20,7 +20,7 @@ export default function Category({ onCategorySelect }) {
       <h2>Shop by Category</h2>
       <div className="category-grid">
         {categories.map((cat) => (
-          <div className="category-card" key={cat.id} onClick={() => onCategorySelect && onCategorySelect(cat.slug)}>
+          <div className="category-card" key={cat.id} onClick={() => onCategorySelect && onCategorySelect(cat)}>
             {cat.name}
           </div>
         ))}
