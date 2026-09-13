@@ -1,9 +1,9 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || "localhost",
-  port: process.env.DB_PORT || 3306,
-  user: process.env.DB_USER || "root",
+  host: process.env.DB_HOST || "mysql-10943bf-yashmishra6444-de35.b.aivencloud.com",
+  port: process.env.DB_PORT || 27716,
+  user: process.env.DB_USER || "avnadmin",
   password: process.env.DB_PASSWORD || "",
   database: process.env.DB_NAME || "blinkit_db",
   waitForConnections: true,
